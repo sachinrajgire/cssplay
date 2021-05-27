@@ -1,0 +1,87 @@
+
+
+html {
+background-color: aquamarine;
+font-family: 'Open Sans', sans-serif;
+font-size:16px ;
+margin-left: 10vw;
+margin-right: 10vw;
+
+border:10px solid red ;
+padding:20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+/* text-align: center; */
+}
+.checkusout {
+    height: 70px;
+    width: 130px;
+    background-color: yellow;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, 50%);
+
+   }
+
+.contact-container  {
+    min-height: 100px;
+    background-color: lightyellow;
+}
+
+a {
+    text-decoration: none;
+    color:blue;
+}
+
+a:hover {
+    font-size:2rem;
+    color: yellow;
+}
+
+.row1 :hover {
+    font-size:1.5rem;
+    color: black;
+}
+
+.header  {
+    min-height: 100px;
+    background-color: bisque;
+}
+.hero-container  {
+    min-height: 100px;
+    background-color: lightpink;
+   border-bottom: 10px solid black;
+   background-image: linear-gradient(red, yellow);
+   z-index:-20;
+
+}
+.hero-container img {
+   width: 100%;
+   height: 70vh;
+   z-index: -99;
+}
+
+.records-container  {
+    min-height: 100px;
+    background-color: lightcyan;
+}
+.curriculum-container  {
+    min-height: 100px;
+    background-color: lightsalmon;
+}
+
+.ln {
+    background-image: linear-gradient(red, yellow);
+    z-index:20;
+}
+
+
+.newhero {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(117, 19, 93, 1)),
+    url('./assets/hero_image.jpg');
+    width: 100%;
+    height: 70vh;
+}

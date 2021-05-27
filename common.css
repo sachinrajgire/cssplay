@@ -1,0 +1,21 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* $xs:4px;
+$s:8px;
+$med:12px;
+$large:16px;
+$xxl:20px; */
+
+.thb {
+    border-bottom: 10px solid black;
+}
+
+.logo {
+top:0;
+left:0;
+position:fixed;
+}
